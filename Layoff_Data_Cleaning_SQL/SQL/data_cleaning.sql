@@ -95,3 +95,8 @@ FROM layoff_staging2 INNER JOIN blank_country ON location = l;
 
 ALTER TABLE layoff_staging2
 DROP COLUMN row_num;
+
+-- VIEW FINAL TABLE --
+
+SELECT *
+FROM layoff_staging2;
